@@ -1,0 +1,286 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+main{
+    height: 800px;
+    background-image:url("https://images.squarespace-cdn.com/content/v1/534444fbe4b0f9ffdd2ebc61/1510764242245-JIWZSYBY8CYHZBOEUGAM/Ray+Romano+Loft+renovation+nyc+brooklyn+hamptons+luxury+construction.jpg?format=2500w");
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+
+}
+
+nav{
+    height:150px;
+    background:white;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:0 80px;
+}
+
+.d1 img{
+
+    width:90px;
+}
+
+nav ul{
+
+    display:flex;
+    list-style:none;
+    gap:40px;
+
+}
+
+nav ul li{
+    font-size:14px;
+    font-weight:bold;
+    letter-spacing:3px;
+    cursor:pointer;
+}
+.a1{
+    padding:120px 80px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center; 
+
+}
+.a2{
+    background-image:url("https://images.squarespace-cdn.com/content/v1/534444fbe4b0f9ffdd2ebc61/1510765722553-76QEADJUAJRSEYMGLNSA/Ray+Romano+Contracting+combination+renovation+luxury+contemporary+Upper+East+Side+NYC+Hamptons+Brooklyn+NJ.jpg?format=2500w");
+
+}
+
+.box1{
+
+    width:65%;
+    background:rgba(255,255,255,.70);
+    padding:25px;
+
+}
+.box1 h1{
+    font-size:65px;
+    font-weight:300;
+    letter-spacing:8px;
+
+}
+.box2{
+
+    width:58%;
+    background:rgba(255,255,255,.70);
+    padding:25px;
+    margin-top:30px;
+
+}
+
+.box2 p{
+
+    font-size:20px;
+    line-height:1.8;
+
+}
+
+.s1{
+
+    padding:100px 160px;
+    background:white;
+
+}
+
+.s1 h2{
+
+    font-size:45px;
+    letter-spacing:4px;
+    margin-bottom:35px;
+    font-weight:300;
+
+}
+
+.s1 p{
+
+    font-size:24px;
+    color:#444;
+    line-height:1.9;
+
+}
+.a2,
+.a3,
+.a4,
+.a5{
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    display:flex;
+    align-items:flex-start;
+    padding-top:90px;
+    padding-left:90px;
+}
+
+.b1{
+    width:62%;
+
+}
+
+.c1{
+
+    background:rgba(255,255,255,.65);
+    padding:35px 30px;
+
+}
+
+.c1 h1{
+
+    font-size:68px;
+    font-weight:300;
+    letter-spacing:8px;
+    line-height:1.15;
+    color:#222;
+
+}
+
+.a3{
+    background-image:url("https://images.squarespace-cdn.com/content/v1/534444fbe4b0f9ffdd2ebc61/1510767064224-MG3QKU4EG3Y4TCIEHUZQ/Custom+Closet+Ray+Rompano+Contracting+NYC+Brooklyn+Upper+east+Side+NYC+renovation.jpg?format=2500w");
+
+}
+
+.b2{
+
+    width:62%;
+
+}
+
+.c2{
+
+    background:rgba(255,255,255,.65);
+    padding:35px 30px;
+
+}
+
+.c2 h1{
+
+    font-size:68px;
+    font-weight:300;
+    letter-spacing:8px;
+    line-height:1.15;
+    color:#222;
+
+}
+.a4{
+    background-image:url("https://images.squarespace-cdn.com/content/v1/534444fbe4b0f9ffdd2ebc61/1510766494470-KZDDR11SFE43N4RHTCLR/Ray+Romano+Hamptons+Sag+Harbor+renovation.jpg?format=2500w");
+
+}
+.a5{
+    background-image:url("https://images.squarespace-cdn.com/content/v1/534444fbe4b0f9ffdd2ebc61/1510766494470-KZDDR11SFE43N4RHTCLR/Ray+Romano+Hamptons+Sag+Harbor+renovation.jpg?format=2500w");
+
+}
+.a6{
+
+    width:100%;
+    padding:70px 120px;
+    background:white;
+
+}
+
+.g1{
+
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:60px 50px;
+
+}
+
+.c1 img{
+
+    width:100%;
+    height:300px;
+    object-fit:cover;
+
+}
+
+.c1 h3{
+
+    margin-top:20px;
+    font-size:18px;
+    font-weight:400;
+    color:#444;
+
+}
+
+.a7{
+
+    background:#1f1f1f;
+    position:relative;
+    margin-top:80px;
+    padding:70px 100px;
+
+}
+
+.top{
+
+    position:absolute;
+    top:-35px;
+    left:50%;
+    transform:translateX(-50%);
+
+}
+
+.top a{
+
+    width:70px;
+    height:70px;
+    border-radius:50%;
+    background:white;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-decoration:none;
+    color:#333;
+    font-size:18px;
+    border:1px solid lightgray;
+    letter-spacing:2px;
+
+}
+
+.f1{
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+}
+
+.i1{
+
+    display:flex;
+    gap:18px;
+
+}
+
+.i1 i{
+
+    width:44px;
+    height:44px;
+    background:white;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:#222;
+    
+    font-size:18px;
+
+}
+
+.t1{
+
+    color:white;
+    font-size:16px;
+    letter-spacing:.5px;
+
+}
